@@ -3756,3 +3756,111 @@ footer.footer{
 #footerhed{
 	color: white;
 }
+/* Card */
+.card1 {
+  background-image: url(https://i.pinimg.com/originals/58/82/0c/58820ccd276d6017588bc5db7503b43b.png); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  width: 350px;
+  height: 254px;
+  border-radius: 20px;
+  position: relative;
+  padding: 1.8rem;
+  border: 2px solid #c3c6ce;
+  transition: 0.5s ease-out;
+  overflow: visible;
+ }
+ .card2 {
+  background-image: url(/images/projecthome.jpg); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  width: 350px;
+  height: 254px;
+  border-radius: 20px;
+  position: relative;
+  padding: 1.8rem;
+  border: 2px solid #c3c6ce;
+  transition: 0.5s ease-out;
+  overflow: visible;
+ }
+ .card3 {
+  background-image: url(https://i.ytimg.com/vi/k18U2BsG5yc/maxresdefault.jpg); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  width: 350px;
+  height: 254px;
+  border-radius: 20px;
+  position: relative;
+  padding: 1.8rem;
+  border: 2px solid #c3c6ce;
+  transition: 0.5s ease-out;
+  overflow: visible;
+ }
+ 
+ .card-details {
+  color: black;
+  height: 100%;
+  gap: .5em;
+  display: grid;
+  place-content: center;
+ }
+ 
+ .card-button {
+  transform: translate(-50%, 125%);
+  width: 60%;
+  border-radius: 1rem;
+  border: none;
+  background-color:var(--accent-color);
+  color: #fff;
+  font-size: 1rem;
+  padding: .5rem 1rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s ease-out;
+ }
+ 
+ .text-body {
+  color: rgb(134, 134, 134);
+ }
+ 
+ /*Text*/
+ .text-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  background-color: #000000d6;
+  padding: 8px;
+  border-radius: 10px;
+ }
+ 
+ /*Hover*/
+ .card1:hover {
+  border-color: var(--accent-color);
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+ }
+ 
+ .card1:hover .card-button {
+  transform: translate(-50%, 50%);
+  opacity: 1;
+ }
+
+ .card2:hover {
+ border-color: var(--accent-color);
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+ }
+ 
+ .card2:hover .card-button {
+  transform: translate(-50%, 50%);
+  opacity: 1;
+ }
+ .card3:hover {
+  border-color: var(--accent-color);
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+ }
+ 
+ .card3:hover .card-button {
+  transform: translate(-50%, 50%);
+  opacity: 1;
+ }
